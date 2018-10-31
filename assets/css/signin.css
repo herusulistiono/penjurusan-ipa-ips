@@ -1,0 +1,147 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+.notify-alert {
+-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
+border: 0 !important;
+max-width: 400px;
+color: #FFF;
+}
+
+.notify-alert.alert-success {
+background-color: #28a745;
+}
+
+.notify-alert.alert-info {
+background-color: #17a2b8;
+}
+
+.notify-alert.alert-warning {
+background-color: #ffce3a;
+}
+
+.notify-alert.alert-danger {
+background-color: #e04b59;
+}
+
+.notify-alert button[data-notify="dismiss"] {
+margin-left: 5px;
+outline: none !important;
+}
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; Override default `<label>` margin
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+} 
+.errorMessages{color: red;}
+
+.box .social {
+    float: none;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.social .circle{
+    background-color: #EEEEEE;
+    color: #FFFFFF;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 0 17px;
+    padding: 15px;
+}
+.social .circle .fa{
+    font-size: 16px;
+}
+.social .facebook{
+    background-color: #455CA8;
+    color: #FFFFFF;
+}
+.social .google{
+    background-color: #F74933;
+}
+.social .github{
+    background-color: #403A3A;
+}
+.facebook:hover{
+    background-color: #6E83CD;
+}
+.google:hover{
+    background-color: #FF7566;
+}
+.github:hover{
+    background-color: #4D4D4d;;
+}
